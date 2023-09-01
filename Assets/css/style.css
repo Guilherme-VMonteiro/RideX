@@ -309,8 +309,8 @@ header {
 	font-size: 1.5rem;
 	font-weight: bold;
 	transition: ease-in-out;
-	transition: background-color 2s;
-	transition: color 1s;
+	transition: background-color 0.5s;
+	transition: color 0.5s;
 }
 
 .button-explore:hover {
@@ -358,15 +358,16 @@ header {
 	overflow: hidden;
 }
 
-.section-02-box-img img {
+.section-02-box-img > img {
 	max-height: 100%;
-	filter: grayscale(1);
+	filter: contrast(100%) grayscale(1);
 	opacity: 0.3;
-	transition: ease-in;
+	transition: ease-in-out 0.3s;
 }
 
 .section-02-box-img:hover img {
 	opacity: 0.5;
+	filter: contrast(100%) grayscale(1);
 }
 
 .section-02-box-text {
@@ -587,18 +588,36 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
 }
 
-.section-04-box h3 {
+.section-04-box > img{
+	max-width: 100%;
+	filter: contrast(100%) grayscale(1);
+}
+
+.section-04-box-text{
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.section-04-box-text h3 {
 	width: 60%;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 	margin-left: 80px;
 	margin-top: 80px;
+
+	text-shadow: 2px 2px 10px black;
 }
 
-.section-04-box p {
+.section-04-box-text p {
 	width: 60%;
 	color: rgb(179, 169, 169);
 	font-weight: bold;
@@ -606,9 +625,10 @@ header {
 	font-family: "Roboto", sans-serif;
 	margin-left: 80px;
 	margin-top: 20px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.section-04-box button {
+.section-04-box-text button {
 	width: 180px;
 	height: 60px;
 	color: rgb(255, 255, 255);
@@ -616,12 +636,17 @@ header {
 	font-family: "Roboto mono", monospace;
 	font-weight: bold;
 	text-transform: uppercase;
-	background: none;
+	background: rgba(0, 0, 0, 0.3);
 	border: none;
 	outline: none;
 	border: 5px solid orange;
 	margin-left: 80px;
 	margin-top: 20px;
+	transition: ease-in-out 0.5s;
+}
+
+.section-04-box-text button:hover{
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .section-04-box-space {
@@ -629,19 +654,6 @@ header {
 	width: 100%;
 }
 
-.section04-left {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/kids-bmx.jpg);
-	background-position: 50% 70%;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.section04-right {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/homem-ciclista.jpg);
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 .section-05 {
 	width: 100vw;
