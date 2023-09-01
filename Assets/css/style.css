@@ -372,7 +372,7 @@ header {
 .section-02-box-text {
 	width: 100%;
 	height: 100%;
-	
+
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -383,7 +383,7 @@ header {
 	justify-content: center;
 }
 
-.section-02-box-text-top{
+.section-02-box-text-top {
 	width: 100%;
 	height: 50%;
 	padding-left: 100px;
@@ -393,20 +393,19 @@ header {
 .section-02-box-text-top h3 {
 	margin: 0;
 	width: 50%;
-	
 }
 .section-02-box-text-top h6 {
 	padding-top: 20px;
 	text-transform: uppercase;
-	font-family: 'Roboto Mono', monospace;
+	font-family: "Roboto Mono", monospace;
 	font-weight: bold;
 }
 
-.section-02-box-text-top-text-orange{
+.section-02-box-text-top-text-orange {
 	color: orangered;
 }
 
-.section-02-box-text-bottom{
+.section-02-box-text-bottom {
 	width: 100%;
 	height: 50%;
 	padding-left: 100px;
@@ -414,7 +413,7 @@ header {
 	align-items: center;
 }
 
-.section-02-box-text-bottom button{
+.section-02-box-text-bottom button {
 	width: 200px;
 	height: 60px;
 	background-color: orangered;
@@ -427,7 +426,7 @@ header {
 	font-weight: bold;
 }
 
-.section-02-box-text-bottom-white button{
+.section-02-box-text-bottom-white button {
 	background-color: white;
 	color: black;
 }
@@ -591,12 +590,12 @@ header {
 	overflow: hidden;
 }
 
-.section-04-box > img{
+.section-04-box > img {
 	max-width: 100%;
 	filter: grayscale(1);
 }
 
-.section-04-box-text{
+.section-04-box-text {
 	width: 100%;
 	height: 100%;
 
@@ -644,7 +643,7 @@ header {
 	transition: ease-in-out 0.5s;
 }
 
-.section-04-box-text button:hover{
+.section-04-box-text button:hover {
 	background: rgba(0, 0, 0, 0.7);
 }
 
@@ -652,7 +651,6 @@ header {
 	height: 50%;
 	width: 100%;
 }
-
 
 .section-05 {
 	width: 100vw;
@@ -891,7 +889,7 @@ header {
 	height: 170vh;
 }
 
-.section-07-container{
+.section-07-container {
 	width: 100%;
 	height: 100%;
 	position: relative;
@@ -902,10 +900,19 @@ header {
 	justify-content: center;
 }
 
-.section-07-container > img{
+.section-07-container > img {
 	max-height: 100%;
 	transform: translate(-95%, 2%);
 	filter: grayscale(1);
+}
+
+.section-07-container-img-2{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/montain-bike.jpg) ;
+	width: 100%;
+	height: 60%;
+	position: absolute;
+	transform: translateY(34%);
+	z-index: -3;
 }
 
 .section-07-container-top {
@@ -919,14 +926,15 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	
 }
 
-.section-07-container h1{
+.section-07-container h1 {
 	position: absolute;
-	top: 0	;
+	top: 0;
 	width: 80%;
 	max-lines: 2;
-	font-family: 'Roboto Mono', monospace;
+	font-family: "Roboto Mono", monospace;
 	text-transform: uppercase;
 	font-size: 25rem;
 
@@ -938,33 +946,33 @@ header {
 	-webkit-text-stroke: 2px rgba(206, 206, 206, 0.25);
 }
 
-.section-07-container-top h6{
+.section-07-container-top h6 {
 	color: orange;
 	font-size: 2rem;
-	font-family: 'Roboto Mono', monospace;
+	font-family: "Roboto Mono", monospace;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
 
-.section-07-container-top h3{
+.section-07-container-top h3 {
 	color: black;
 	width: 50%;
 	font-size: 6rem;
 	text-align: center;
-	font-family: 'Roboto', monospace;
+	font-family: "Roboto", monospace;
 	font-weight: bold;
 	text-transform: capitalize;
 	margin-top: 30px;
 	margin-bottom: 50px;
 }
-.section-07-container-top-input{
+.section-07-container-top-input {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
 }
-.section-07-container-top-input input{
+.section-07-container-top-input input {
 	width: 50%;
 	height: 60px;
 	border: none;
@@ -972,15 +980,15 @@ header {
 	padding-left: 30px;
 	font-size: 1.7rem;
 	background-color: #ececec;
-	font-family: 'Roboto Mono', monospace;
+	font-family: "Roboto Mono", monospace;
 }
 
-.section-07-container-top-input button{
+.section-07-container-top-input button {
 	width: 10%;
 	height: 62px;
 	border: none;
 	outline: none;
-	font-family: 'Roboto Mono', monospace;
+	font-family: "Roboto Mono", monospace;
 	background-color: orangered;
 	color: white;
 	text-transform: uppercase;
@@ -994,7 +1002,110 @@ header {
 	top: 40%;
 	width: 100%;
 	height: 60%;
-	background-color: rgb(88, 207, 41);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-07-container-bottom > h4{
+	text-transform: none;
+	width: 65%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 4.5rem;
+	margin: 80px 0px;
+
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.section-07-container-bottom > h5{
+	font-family: 'Roboto Mono', monospace;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	font-size: 3rem;
+}
+
+.section-07-container-bottom-box {
+	width: 100%;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-07-container-bottom-box-container {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-07-container-bottom-box-top {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-07-container-bottom-box-bottom {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+}
+
+.section-07-container-bottom-box-top-left {
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid rgb(255, 255, 255);
+	border-left: 2px solid rgb(255, 255, 255);
+}
+
+.section-07-container-bottom-box-top-right {
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid rgb(255, 255, 255);
+	border-right: 2px solid rgb(255, 255, 255);
+}
+
+.section-07-container-bottom-box-bottom-left {
+	width: 10px;
+	height: 10px;
+	border-bottom: 2px solid rgb(255, 255, 255);
+	border-left: 2px solid rgb(255, 255, 255);
+}
+
+.section-07-container-bottom-box-bottom-right {
+	width: 10px;
+	height: 10px;
+	border-bottom: 2px solid rgb(255, 255, 255);
+	border-right: 2px solid rgb(255, 255, 255);
+}
+
+.section-07-container-bottom-box > h5{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+
+	font-size: 15rem;
+	text-align: center;
+	font-family: 'Passion One', cursive;
+	color: orange;
+	transform: rotate(0.5turn);
+	padding-right: 3px;
+	
+}
+
+.section-07-arrows{
+	margin-top: 40px;
+}
+
+.section-07-arrows i{
+	font-size: 3rem;
+	color: gray;
+	margin: 10px;
 }
 
 .section-08 {
@@ -1002,3 +1113,5 @@ header {
 	height: 100vh;
 	background-color: rgb(204, 43, 43);
 }
+
+/* font-family: 'Passion One', cursive; */
