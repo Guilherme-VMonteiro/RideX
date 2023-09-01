@@ -1,0 +1,1109 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+html {
+	width: 100vw;
+	height: 100vh;
+	font-size: 62.5%;
+}
+
+button {
+	cursor: pointer;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-size: 12rem;
+	text-transform: capitalize;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	margin: 0px;
+}
+h2 {
+	font-size: 10rem;
+	text-transform: capitalize;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	margin: 0px;
+}
+h3 {
+	font-size: 5rem;
+	text-transform: capitalize;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	margin: 0px;
+}
+h4 {
+	font-size: 6rem;
+	text-transform: capitalize;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	margin: 0px;
+}
+h5 {
+	font-size: 4rem;
+	text-transform: capitalize;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	margin: 0px;
+}
+h6 {
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.top-header {
+	width: 100vw;
+	height: 40px;
+	background-color: black;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.top-header-left {
+	width: 50%;
+}
+
+.top-header-left ul {
+	display: flex;
+	align-items: center;
+}
+
+.top-header-left ul li {
+	list-style: none;
+}
+
+.top-header-left ul li a {
+	color: rgb(206, 199, 199);
+	text-decoration: none;
+	margin-left: 30px;
+	font-size: 1.5rem;
+	font-family: "Roboto Mono", monospace;
+}
+
+.top-header-right {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 50%;
+}
+
+.top-header-right p {
+	color: white;
+	display: inline-block;
+	font-size: 1.5rem;
+	font-family: "Roboto Mono", monospace;
+}
+
+.top-header-right ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-right: 40px;
+}
+
+.top-header-right ul li {
+	list-style: none;
+}
+
+.top-header-right ul li a {
+	color: rgb(206, 199, 199);
+	font-size: 1.8rem;
+	margin: 0px 20px;
+}
+
+header {
+	width: 100vw;
+	height: 180px;
+	background-color: #272727;
+
+	display: flex;
+	align-items: center;
+}
+
+.nav-left-links {
+	width: 40%;
+}
+
+.nav-left-links ul {
+	display: flex;
+	align-items: center;
+}
+
+.nav-left-links ul li {
+	list-style: none;
+}
+
+.nav-left-links ul li a {
+	color: white;
+	font-family: "Roboto Mono", monospace;
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0px 30px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20%;
+}
+
+.logo a {
+	color: white;
+	text-decoration: none;
+	font-size: 8rem;
+	font-family: "Satisfy", cursive;
+}
+
+.nav-right-links {
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.logo a > span {
+	color: orange;
+}
+
+.logo a {
+	transition: font-size 1s;
+	transition-timing-function: ease-out;
+}
+
+.logo a:hover {
+	font-size: 9rem;
+}
+
+.nav-right-links ul {
+	display: flex;
+	align-items: center;
+	padding-right: 40px;
+}
+
+.nav-right-links ul li {
+	list-style: none;
+}
+
+.nav-right-links ul li a {
+	color: white;
+	font-family: "Roboto Mono", monospace;
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0px 30px;
+}
+
+.section {
+	width: 100vw;
+	height: 100vh;
+}
+
+.section-01 {
+	display: flex;
+	align-items: center;
+}
+
+.fundo {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.section-01-left {
+	width: 60%;
+	height: 100%;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(19, 19, 19, 0.85));
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-01-left-top {
+	width: 80%;
+}
+
+.section-01-left-mid {
+	width: 80%;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.section-01-left-mid del {
+	font-size: 3rem;
+	margin-right: 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+.section-01-left-mid h5 {
+	color: orangered;
+}
+.section-01-left-bottom {
+	width: 80%;
+	color: rgb(133, 133, 133);
+	z-index: 2;
+	margin-bottom: 30px;
+}
+
+.section-01-left-bottom p {
+	font-size: 2rem;
+	font-family: "Roboto", sans-serif;
+}
+
+.section-01-buttons {
+	width: 80%;
+}
+
+.button-shop-now {
+	width: 150px;
+	height: 50px;
+
+	border: none;
+	outline: none;
+	background-color: rgb(197, 131, 7);
+	text-transform: uppercase;
+	color: white;
+	font-size: 1.5rem;
+	font-family: "Roboto Mono", monospace;
+	margin-right: 30px;
+	font-weight: bold;
+}
+
+.button-explore {
+	width: 250px;
+	height: 50px;
+
+	border: 5px solid white;
+	outline: none;
+	background: transparent;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Roboto Mono", monospace;
+	font-size: 1.5rem;
+	font-weight: bold;
+	transition: ease-in-out;
+	transition: background-color 2s;
+	transition: color 1s;
+}
+
+.button-explore:hover {
+	background-color: white;
+	color: black;
+}
+
+.section-01-right {
+	width: 40%;
+	height: 100%;
+	background: linear-gradient(0deg, rgba(243, 145, 34, 0.918), rgba(255, 101, 30, 0.8));
+}
+
+.section-01 img {
+	background-color: transparent;
+}
+
+.overlay {
+	position: absolute;
+	top: 15vh;
+	left: 48vw;
+	width: 1200px;
+	height: 800px;
+	background: url(../img/bike_laranja_tranparente.png) center center no-repeat;
+	background-size: cover;
+	opacity: 1;
+	z-index: 1;
+}
+
+.section-02 {
+	width: 100vw;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+}
+
+.section-02-box {
+	width: 33.3%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-box {
+	width: 80%;
+	height: 50%;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+
+.top-box h3 {
+	width: 80%;
+}
+
+.top-box h6 {
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.text-orange {
+	color: orangered;
+}
+
+.bottom-box {
+	margin-top: 20px;
+	height: 30%;
+	padding: 10px 50px;
+	display: flex;
+	align-items: center;
+}
+
+.bottom-box button {
+	width: 200px;
+	height: 60px;
+	background-color: orangered;
+	outline: none;
+	border: none;
+	color: white;
+	font-family: "Roboto Mono", monospace;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.button-box-white button {
+	color: black;
+	background-color: white;
+}
+
+.section-02-box-01 {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bike-profissional.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: ease-in-out;
+	transition: background 2s;
+	transition: background-color 2s;
+	transition: background-image 2s;
+}
+
+.section-02-box-01:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bike-profissional.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section-02-box-02 {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bike_close.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: ease-in-out;
+	transition: background 2s;
+	transition: background-color 2s;
+	transition: background-image 2s;
+}
+
+.section-02-box-02:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bike_close.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section-02-box-03 {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/maeEfilha.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: ease-in-out;
+	transition: background 2s;
+	transition: background-color 2s;
+	transition: background-image 2s;
+}
+
+.section-02-box-03:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/maeEfilha.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section-03 {
+	width: 100vw;
+	height: 90vh;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-03-top h6 {
+	font-family: "Roboto Mono", monospace;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: orange;
+	font-size: 1.7;
+	font-weight: bold;
+}
+
+.section-03-top h2 {
+	padding-top: 20px;
+	color: black;
+	font-size: 7rem;
+	font-weight: bold;
+}
+
+.section-03-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+.section-03-bottom-box {
+	width: 500px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-03-bottom-box-line {
+	border-right: 1px solid rgba(126, 118, 118, 0.5);
+}
+
+.section-03-bottom-box h5 {
+	color: black;
+	font-size: 3rem;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+.section-03-bottom-box p {
+	font-size: 2rem;
+	width: 80%;
+	text-align: center;
+}
+
+.section-03-square {
+	width: 100px;
+	height: 100px;
+	border: 0.8px solid rgb(126, 118, 118);
+	display: flex;
+	flex-direction: column;
+}
+
+.section-03-square-top {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-03-square-bottom {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+}
+
+.section-03-square-01 {
+	width: 10px;
+	height: 10px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.section-03-square-02 {
+	width: 10px;
+	height: 10px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.section-03-square-03 {
+	width: 10px;
+	height: 10px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.section-03-square-04 {
+	width: 10px;
+	height: 10px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.section-03-square-img-01 {
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/correia.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section-03-square-img-02 {
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/capa.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	transform: scaleX(-1);
+	background-size: cover;
+}
+
+.section-03-square-img-03 {
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/bike.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section04 {
+	width: 100vw;
+	height: 80vh;
+	background-color: gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-04-box {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.section-04-box h3 {
+	width: 60%;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	margin-left: 80px;
+	margin-top: 80px;
+}
+
+.section-04-box p {
+	width: 60%;
+	color: rgb(179, 169, 169);
+	font-weight: bold;
+	font-size: 1.8rem;
+	font-family: "Roboto", sans-serif;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+.section-04-box button {
+	width: 180px;
+	height: 60px;
+	color: rgb(255, 255, 255);
+	font-size: 2rem;
+	font-family: "Roboto mono", monospace;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: none;
+	border: none;
+	outline: none;
+	border: 5px solid orange;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+.section-04-box-space {
+	height: 50%;
+	width: 100%;
+}
+
+.section04-left {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/kids-bmx.jpg);
+	background-position: 50% 70%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section04-right {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/homem-ciclista.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section-05 {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(27, 26, 26);
+}
+
+.section-05 img {
+	margin-right: -10vw;
+	float: right;
+	max-width: 70%;
+}
+
+.section-05-left-box {
+	width: 80%;
+	height: 100%;
+	padding-left: 30px;
+	white-space: nowrap;
+}
+
+.section-05-left-box-container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section-05-left-box-container > h6 {
+	font-family: "Roboto Mono", monospace;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: orange;
+	margin: 20px 0px;
+	letter-spacing: 3px;
+}
+
+.section-05-left-box-container > h4 {
+	margin: 20px 0px;
+	width: 90%;
+	font-size: 8rem;
+	white-space: normal;
+}
+
+.section-05-left-box-container button {
+	width: 250px;
+	height: 60px;
+	outline: none;
+	border: none;
+	background-color: orangered;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+.section-05-left-box-grid {
+	display: grid;
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 180px 180px;
+	column-gap: 40px;
+}
+
+.section-05-left-box-grid-item {
+	white-space: normal;
+}
+
+.section-05-left-box-grid-item > h6 {
+	font-size: 2.5rem;
+}
+
+.section-05-left-box-grid-item > p {
+	font-size: 2rem;
+	margin: 10px 0px;
+	color: #837d7d;
+}
+
+.section-06 {
+	width: 100vw;
+	height: 100vh;
+	background-color: #ffffff;
+}
+
+.section-06-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-06-top-box {
+	width: 100%;
+	height: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-06-top-box > h5 {
+	font-family: "Roboto Mono", monospace;
+	color: orangered;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.section-06-top-box > h4 {
+	color: black;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.section-06-mid-box {
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.section-06-bottom-box {
+	width: 100%;
+	height: 10%;
+}
+
+.section-06-bottom-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-06-bottom-box ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-06-bottom-box ul > li {
+	list-style: none;
+}
+
+.section-06-bottom-box-slider {
+	width: 200px;
+	height: 2px;
+	background-color: rgb(202, 202, 202);
+}
+
+.section-06-bottom-box-slider-selected {
+	background-color: orangered;
+}
+
+.section-06-card {
+	width: 500px;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-06-card h6 {
+	font-family: "Roboto Mono", monospace;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 2rem;
+	text-align: center;
+	margin: 5px;
+}
+
+.section-06-card h6 > span {
+	color: orangered;
+}
+
+.section-06-card-img {
+	width: 500px;
+	height: 60%;
+	background-color: #c8c9c3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-06-card-img > img {
+	max-height: 90%;
+}
+
+.section-06-card-colors {
+	width: 100%;
+}
+
+.section-06-card-colors ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+}
+
+.section-06-card-colors ul li {
+	list-style: none;
+	margin: 10px;
+}
+
+.section-06-card-colors ul li:hover {
+	transform: scale(1.3);
+}
+
+.section-06-card-colors-circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+.circle-red {
+	background-color: red;
+}
+.circle-blue {
+	background-color: blue;
+}
+.circle-black {
+	background-color: black;
+}
+.circle-gray {
+	background-color: gray;
+}
+.circle-purple {
+	background-color: purple;
+}
+.circle-green {
+	background-color: green;
+}
+
+.section-07{
+	width: 100vw;
+	height: 170vh;
+}
+
+.section-07-container{
+	width: 100%;
+	height: 170vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-07-top{
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-07-top > h6{
+	color: orangered;
+	font-family: 'Roboto Mono', monospace;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2rem;
+	letter-spacing: 2px;
+}
+
+.section-07-bottom{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/montain-bike.jpg) ;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+
+	overflow: hidden;
+}
+
+.section-07-top-back > h6{
+	max-width: 100vw;
+	color: transparent;
+	-webkit-text-stroke-color: rgba(187, 180, 180,0.3);
+	-webkit-text-stroke-width: 3px;
+	font-size: 30rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: absolute;
+	top: 550vh;
+	left: 10vw;
+	z-index: -1;
+}
+
+.section-07-top > h4 {
+	color: black;
+	width: 60%;
+	font-size: 8rem;
+	font-weight: bold;
+	text-align: center;
+	z-index: 3;
+}
+
+.section-07-top-inputs{
+	margin-top: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 3;
+}
+
+.section-07-top-inputs > input {
+	width: 50%;
+	height: 50px;
+	font-size: 2rem;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	background-color: #e6e7e0;
+	color: #b5b6b2;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+}
+
+.section-07-top-inputs > button{
+	width: 10%;
+	height: 60px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	font-size: 2rem;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	background-color: orange;
+}
+
+.section-07-bottom-square{
+	padding-top: 50px;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.section-07-square-top{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-07-square-bottom{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.section-07-square-01{
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+}
+
+.section-07-square-02{
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.section-07-square-03{
+	width: 10px;
+	height: 10px;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+}
+
+.section-07-square-04{
+	width: 10px;
+	height: 10px;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.section-07-bottom > h4{
+	text-transform: none;
+	margin: 80px 0px;
+
+	font-size: 4rem;
+	text-align: center;
+	width: 60%;
+}
+
+.section-07-bottom > h5{
+	font-family: 'Roboto Mono', monospace;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+.section-07-bottom-arrows{
+	padding-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-07-bottom-arrows i{
+	color: white;
+	font-size: 5rem;
+	text-align: center;
+	padding: 0px 15px;
+}
+
+.section-07-img{
+	position: absolute;
+	top: 550vh;
+	width: 100vw;
+	height: 168.90vh;
+	z-index: -3;
+}
+
+.section-07-img > img{
+	max-height: 100%;
+	filter: grayscale(1);
+	z-index: -3;
+}
+
+.section-08{
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+}
